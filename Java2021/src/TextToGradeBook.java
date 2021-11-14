@@ -25,7 +25,7 @@ public class TextToGradeBook {
 
     public static ArrayList<String> readFile(String filePath) {
         ArrayList<String> output = new ArrayList<String>();
-        File file = new File(filePath);
+        File file = new File("/Users/lisapham/IdeaProjects/Java2021/src/Grade Book.txt");
         FileReader fr;
         try {
             fr = new FileReader(file);
